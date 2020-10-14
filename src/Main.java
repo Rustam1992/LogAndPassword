@@ -8,9 +8,17 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String login = reader.readLine();
-        String pass= reader.readLine();
-        String confirmPass= reader.readLine();
-          confirm(login, pass, confirmPass);
+        String pass = reader.readLine();
+        String confirmPass = reader.readLine();
+        confirm(login, pass, confirmPass);
+        int age;
+        age = Integer.parseInt(reader.readLine());
+        if (age <=18 ) {
+            System.out.println("вы еще маленький)))");
+        } else {
+            System.out.println("welcome");
+        }
+
 
     }
 
