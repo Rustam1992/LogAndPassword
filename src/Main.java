@@ -15,6 +15,10 @@ public class Main {
         age = Integer.parseInt(reader.readLine());
         if (age <=18 ) {
             System.out.println("вы еще маленький)))");
+            age = Integer.parseInt(reader.readLine());
+            if (age >=18 ) {
+                System.out.println("норм)))");
+            }
         } else {
             System.out.println("welcome");
         }
